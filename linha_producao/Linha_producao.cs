@@ -29,7 +29,7 @@ namespace linha_producao
             {
                 OpenConnection();
 
-                string query = "SELECT * FROM linha_producao";
+                string query = "SELECT * FROM linha_producao;";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, connection))
                 {

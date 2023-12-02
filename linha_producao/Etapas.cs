@@ -28,7 +28,7 @@ namespace linha_producao
             {
                 OpenConnection();
 
-                string query = "SELECT * FROM etapas";
+                string query = "SELECT * FROM etapas;";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, connection))
                 {

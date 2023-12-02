@@ -27,7 +27,7 @@ namespace linha_producao
             {
                 OpenConnection();
 
-                string query = "SELECT * FROM setores";
+                string query = "SELECT * FROM setores;";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, connection))
                 {
